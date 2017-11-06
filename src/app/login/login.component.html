@@ -1,0 +1,24 @@
+<div class="loginBox">
+
+  <div class="appLogo">
+    <img class="logo" src="../assets/pic2wordslogo.png">
+    <span class="appHeading">Welcome to Pic2Word</span>
+  </div>
+  <div class="loginHeading">
+    <h6 class="loginText">Login Here</h6>
+    <span>Already have an account</span><br>
+  </div>
+
+  <div class="inputAreaBox">
+  <label for="name">Username</label><br>
+  <input [(ngModel)]="username" type="text">
+
+  <label for="password">Password</label><br>
+  <input [(ngModel)]="password" type="password">
+  </div>
+  <div class="loginButtonBox">
+    <a href="/register">Register</a><button (click)="login()">Login</button>
+  </div>
+
+
+</div>
